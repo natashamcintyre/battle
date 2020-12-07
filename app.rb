@@ -1,10 +1,17 @@
 require 'sinatra'
-require 'shotgun'
 
 get '/' do
-  "Hello!"
+  "Hello - no exit!"
 end
 
 get '/secret' do
   "Super secret message"
+end
+
+get '/slightlylesssecret' do
+  "Slightly less secret"
+end 
+
+get '/anotherone' do
+  'Here we are'
 end
