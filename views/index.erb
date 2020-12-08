@@ -1,6 +1,11 @@
 
-<h1> My name is <%= @cat_name %> </h1>
-
-<div style='border: 3px dashed red'>
+<h1> My name is <%= @cat_named %> </h1> 
+<% if @cat_named.nil? %> 
+<form action="/named-cat">  
+<input type="text" name="age"> <input type="submit" value="submit">    
+</form>    
+<% end %> 
+<div style='border: 3px dashed red'>  
   <img style='height:200px' src='https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=49ed3252c0b2ffb49cf8b508892e452d'>
- </div>
+</div>
+
