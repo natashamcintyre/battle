@@ -3,7 +3,7 @@
 
 ## Sequence Diagram in https://www.diagram.codes/
 
-alias user="User"/n
+alias user="User"
 alias client="Client"
 alias server="Server"
 
