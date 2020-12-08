@@ -1,8 +1,7 @@
 # battle
 
-https://www.diagram.codes/
 
-# Sequence Diagram
+## Sequence Diagram in https://www.diagram.codes/
 
 alias user="User"
 alias client="Client"
